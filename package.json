@@ -1,0 +1,24 @@
+{
+  "name": "react-countries",
+  "version": "1.0.0",
+  "description": "Small React app that displays a list of countries in the world",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisnager/react-countries.git"
+  },
+  "keywords": [
+    "react",
+    "countries",
+    "list"
+  ],
+  "author": "Chris Nager <@chrisnager>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisnager/react-countries/issues"
+  },
+  "homepage": "https://github.com/chrisnager/react-countries",
+  "dependencies": {
+    "react": "^0.12.2"
+  }
+}

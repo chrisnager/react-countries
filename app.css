@@ -1,0 +1,54 @@
+html {
+    font: 1em sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #c13;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    border-bottom: 1px solid #aaa;
+    padding: 1rem 2rem;
+}
+
+li:first-child {
+    border-top: 1px solid #aaa;
+    padding: 0;
+}
+
+button {
+    border: 0;
+    padding: 1rem;
+    width: 50%;
+    background-color: #eee;
+}
+
+button:hover,
+button:focus {
+    background-color: #ddd;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
