@@ -4,22 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>react-countries</title>
-        <meta name="description" content="Small React app that displays a list of countries in the world">
+        <meta name="description" content="Small React app that uses Firebase to display a list of countries in the world">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
         <header>
             <h1><a href="//github.com/chrisnager/react-countries">react-countries</a></h1>
-            <p>Small React app that displays a list of countries in the world</p>
+            <p>Small React app that uses Firebase to display a list of countries in the world</p>
         </header>
         <main></main>
         <footer>
             <small><a href="//github.com/chrisnager/react-countries">github</a> &middot; <a href="//twitter.com/chrisnager">@chrisnager</a></small>
         </footer>
 
-        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react-with-addons.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
-        <script type="text/jsx" src="app.js"></script>
+        <script src="//cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+        <script src="//cdn.firebase.com/libs/reactfire/0.4.0/reactfire.min.js"></script>
+        <script type="text/jsx" src="components/countries.jsx"></script>
+        <script type="text/jsx" src="components/country.jsx"></script>
+        <script type="text/jsx" src="components/app.jsx"></script>
     </body>
 </html>

@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/chrisnager/react-countries",
   "dependencies": {
-    "react": "^0.12.2"
+    "firebase": "^2.1.2",
+    "react": "^0.12.2",
+    "reactfire": "^0.4.0",
+    "world-countries": "^1.7.0"
   }
 }
