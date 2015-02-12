@@ -77,8 +77,6 @@ var Country = React.createClass({
 
             currentPage = this.props.countries.slice(this.state.page * 10, this.state.page * 10 + 10);
 
-        console.log(currentPage);
-
         return(            
             <ul>
                <li style={navStyles}>
