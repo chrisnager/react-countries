@@ -1,7 +1,7 @@
 {
   "name": "react-countries",
   "version": "1.0.0",
-  "description": "Small React app that displays a list of countries in the world",
+  "description": "Small React app that uses Firebase to display a list of countries in the world",
   "main": "index.html",
   "repository": {
     "type": "git",
@@ -23,5 +23,16 @@
     "react": "^0.12.2",
     "reactfire": "^0.4.0",
     "world-countries": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-react": "~2.0.0",
+    "gulp-util": "~3.0.3",
+    "react-tools": "~0.12.2",
+    "through2": "~0.6.3",
+    "gulp-concat": "~2.4.3",
+    "gulp-inline-css": "~2.0.0",
+    "fs": "0.0.2",
+    "gulp-replace": "~0.5.2"
   }
 }
