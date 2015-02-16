@@ -33,6 +33,7 @@
     "gulp-concat": "~2.4.3",
     "gulp-inline-css": "~2.0.0",
     "fs": "0.0.2",
-    "gulp-replace": "~0.5.2"
+    "gulp-replace": "~0.5.2",
+    "gulp-minify-css": "~0.4.5"
   }
 }
