@@ -1,0 +1,29 @@
+{
+  "name": "react-countries",
+  "version": "0.0.0",
+  "description": "react-countries",
+  "main": "dist/react-countries.min.js",
+  "homepage": "https://github.com/chrisnager/react-countries",
+  "authors": [
+    "Chris Nager"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}

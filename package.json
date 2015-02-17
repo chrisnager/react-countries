@@ -1,0 +1,42 @@
+{
+  "name": "react-countries",
+  "version": "0.0.0",
+  "description": "react-countries",
+  "main": "src/ReactCountries.js",
+  "author": "Chris Nager",
+  "homepage": "https://github.com/chrisnager/react-countries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisnager/react-countries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisnager/react-countries/issues"
+  },
+  "dependencies": {
+    "react": "^0.12.2",
+    "reactify": "^0.17.1",
+    "firebase": "~2.2.0",
+    "reactfire": "~0.4.0"
+  },
+  "devDependencies": {
+    "react-component-gulp-tasks": "^0.1.1",
+    "gulp": "^3.8.10"
+  },
+  "browser": "src/ReactCountries.js",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\" && exit 0"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "react",
+    "react-component"
+  ]
+}
