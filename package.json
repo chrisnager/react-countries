@@ -1,39 +1,42 @@
 {
   "name": "react-countries",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Small React app that uses Firebase to display a list of countries in the world",
-  "main": "index.html",
+  "main": "src/ReactCountries.js",
+  "author": "Chris Nager",
+  "homepage": "https://github.com/chrisnager/react-countries",
   "repository": {
     "type": "git",
     "url": "https://github.com/chrisnager/react-countries.git"
   },
-  "keywords": [
-    "react",
-    "countries",
-    "list"
-  ],
-  "author": "Chris Nager <@chrisnager>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chrisnager/react-countries/issues"
   },
-  "homepage": "https://github.com/chrisnager/react-countries",
   "dependencies": {
-    "firebase": "^2.1.2",
     "react": "^0.12.2",
-    "reactfire": "^0.4.0",
-    "world-countries": "^1.7.0"
+    "reactify": "^0.17.1",
+    "firebase": "~2.2.0",
+    "reactfire": "~0.4.0"
   },
   "devDependencies": {
-    "gulp": "~3.8.11",
-    "gulp-react": "~2.0.0",
-    "gulp-util": "~3.0.3",
-    "react-tools": "~0.12.2",
-    "through2": "~0.6.3",
-    "gulp-concat": "~2.4.3",
-    "gulp-inline-css": "~2.0.0",
-    "fs": "0.0.2",
-    "gulp-replace": "~0.5.2",
-    "gulp-minify-css": "~0.4.5"
-  }
+    "react-component-gulp-tasks": "^0.1.1",
+    "gulp": "^3.8.10"
+  },
+  "browser": "src/ReactCountries.js",
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "browserify-shim": {
+    "react": "global:React"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\" && exit 0"
+  },
+  "readmeFilename": "README.md",
+  "keywords": [
+    "react",
+    "react-component"
+  ]
 }

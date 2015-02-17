@@ -6,12 +6,9 @@
         <title>react-countries</title>
         <meta name="description" content="Small React app that uses Firebase to display a list of countries in the world">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>html{font:1em sans-serif}body{margin:0}footer,header{padding:2rem}a{text-decoration:none;color:#c13}ul{margin-top:0;margin-bottom:0;padding-left:0;list-style-type:none}</style>
-        <script src="//cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
-        <script src="lib.js"></script>
-        <script type="text/jsx" src="app.jsx"></script>
+        <link rel="stylesheet" href="app.css">
     </head>
-    <body>
+    <body class="container">
         <header>
             <h1><a href="//github.com/chrisnager/react-countries">react-countries</a></h1>
             <p>Small React app that uses Firebase to display a list of countries in the world</p>
@@ -20,5 +17,12 @@
         <footer>
             <small><a href="//github.com/chrisnager/react-countries">github</a> &middot; <a href="//twitter.com/chrisnager">@chrisnager</a></small>
         </footer>
+
+        <script src="//cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+        <script src="//cdn.firebase.com/libs/reactfire/0.4.0/reactfire.min.js"></script>
+        <script src="common.js"></script>
+        <script src="bundle.js"></script>
+        <script src="app.js"></script>
+        <script type="text/javascript">document.write('<script src="' + (location.protocol || 'http:') + '//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1" type="text/javascript"><\/script>')</script>
     </body>
 </html>
